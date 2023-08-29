@@ -113,3 +113,32 @@ header{
     margin-left: 50px;
 }
 /* deal styles*/
+.flower-deal{
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 150px 250px;
+}
+.deals{
+    width: 30%;
+}
+.deals h2{
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: normal;    
+}
+.deals p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    margin-right: 26px;
+}
+.deals-image{
+    width: 30%;
+    
+}
