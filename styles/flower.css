@@ -1,0 +1,40 @@
+/* shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* header styles */
+header{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 50px 80px 0px 200px;
+    height: 500px;
+}
+.flower-banner-content h1{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100%;
+}
+.flower-banner-content p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;  
+}
+.flower-banner-images{
+    width: 50%;
+}
+.flower-banner-images img{
+    height: 100%;
+}
