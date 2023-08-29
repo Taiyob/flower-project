@@ -157,3 +157,19 @@ header{
     width: 23%;
     margin-right: 20px;
 }
+/* Latest flower deal */
+.latest-flower-deal{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.latest-flower-deal-bannar-image{
+    background: url('../images/Rectangle9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    margin: 0px auto;
+}
+.latest-flower-deal-bannar-image h3,p,input[type="text"]{
+    text-align: center;
+    margin: 0 auto;
+}
