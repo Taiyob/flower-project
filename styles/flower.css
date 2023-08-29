@@ -3,8 +3,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 section{
-    margin-top: 120px;
-    
+    margin-bottom: 150px; 
 }
 .btn-primary{
     display: inline-flex;
@@ -38,6 +37,7 @@ header{
     gap: 100px;
     padding: 50px 80px 0px 200px;
     height: 500px;
+    margin-bottom: 120px;
 }
 .flower-banner-content h1{
     color: #272727;
@@ -81,3 +81,35 @@ header{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
+/* product delivery */
+.product-delivery-item{
+    display: flex;
+    max-width: 50%;
+    margin-left: 300px; 
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 30px;
+}
+.products-item{
+    padding-left: 20px;
+}
+.products-item img{
+    margin-left: 70px;
+    width: 35px;
+}
+.products-item img:nth-child(3n){
+    margin-right: 100%;
+}
+.products-item p{
+    font-size: 12px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-weight: 600;
+}
+.products-item:nth-child(3n){
+    margin-left: 80px;
+}
+.products-item:nth-child(2n){
+    margin-left: 50px;
+}
+/* deal styles*/
